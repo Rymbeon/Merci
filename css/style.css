@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,700i&subset=cyrillic');
 @font-face {
   font-family: 'Helvetica_Regular';
   font-style: normal;
@@ -10,46 +11,28 @@
   font-weight: normal;
   src: url('../fonts/Helvetica_Light.otf') format('otf');
 }
-@font-face {
-  font-family: 'PT_Sans-Web-Bold';
-  font-style: normal;
-  font-weight: normal;
-  src: url('../fonts/PT_Sans-Web-Bold.ttf') format('ttf');
-}
-@font-face {
-  font-family: 'PT_Sans-Web-BoldItalic';
-  font-style: normal;
-  font-weight: normal;
-  src: url('../fonts/PT_Sans-Web-BoldItalic.ttf') format('ttf');
-}
-@font-face {
-  font-family: 'PT_Sans-Web-Regular';
-  font-style: normal;
-  font-weight: normal;
-  src: url('../fonts/PT_Sans-Web-Regular.ttf') format('ttf');
-}
 .PT_sans_reg {
-  font-family: 'PT_Sans-Web-Regular';
+  font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: normal;
 }
 .PT_sans_bold {
-  font-family: 'PT_Sans-Web-Regular';
+  font-family: 'Open Sans', sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: bold;
 }
 .PT_sans_boldit {
-  font-family: 'PT_Sans-Web-Regular';
-  font-style: normal;
-  font-weight: normal;
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic;
+  font-weight: bold;
 }
 .Helv_reg {
-  font-family: 'PT_Sans-Web-Regular';
+  font-family: 'Helvetica_Regular';
   font-style: normal;
   font-weight: normal;
 }
 .Helv_light {
-  font-family: 'PT_Sans-Web-Regular';
+  font-family: 'Helvetica_Light';
   font-style: normal;
   font-weight: normal;
 }
@@ -78,14 +61,20 @@
   background-color: #191A1F;
 }
 .nav_modal {
-  display: none;
+  display: block;
 }
-.navbar {
-  font-family: 'PT_Sans-Web-Regular';
-  font-style: normal;
-  font-weight: normal;
-  color: #FFFFFF;
+.nav_modal > div {
   background-color: #191A1F;
   width: 100%;
   height: 100%;
+}
+.navbar > li {
+  list-style: none;
+}
+.navbar > li > a {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-decoration-line: none;
 }
