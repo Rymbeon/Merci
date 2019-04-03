@@ -603,11 +603,12 @@ a {
   max-height: 50px;
 }
 .store_link {
+  padding-top: 40px;
   font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
 }
-.store_img {
+.store_img > img {
   max-width: 145px;
 }
