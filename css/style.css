@@ -271,3 +271,6 @@ a:active {
 .dark {
   background-color: #191A1F;
 }
+.lightvip {
+  color: #ffffff !important;
+}
