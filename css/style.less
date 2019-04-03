@@ -300,31 +300,57 @@ a:active {
 .after_item {
   content: "";
   position: absolute;
+  bottom: -257px;
+  width: 594px;
+  height: 189.84px;
+  background: rgba(219, 178, 102, 0.12);
+transform: rotate(30deg);
+z-index: 0;
+}
+.before_item {
+  content: "";
+  position: absolute;
   top:66px ;
   width: 594px;
   height: 189.84px;
   background: rgba(219, 178, 102, 0.12);
 transform: rotate(30deg);
-z-index: -11;
+z-index: 0;
 }
 .Our_classes_comfort::after {
- .after_item
+ .after_item;
 }
 .Our_classes_busines::after {
-  .after_item
+  .after_item;
  }
  .Our_classes_lux::after {
-  .after_item
+  .after_item;
  }
  .Our_classes_vip::after {
-  .after_item
+  .after_item;
  }
- .Our_classes_ecovip::after {
-  .after_item
- }
+
  .Our_classes_miniven::after {
-  .after_item
+  .after_item;
  }
+ .Our_classes_comfort::before {
+  .before_item;
+ }
+ .Our_classes_busines::before {
+  .before_item;
+  }
+  .Our_classes_lux::before {
+    .before_item;
+  }
+  .Our_classes_vip::before {
+    .before_item;
+  }
+  .Our_classes_ecovip::before {
+    .before_item;
+  }
+  .Our_classes_miniven::before {
+    .before_item;
+  }
 .dark {
   .b_light_grey;
 }

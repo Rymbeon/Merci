@@ -287,72 +287,132 @@ a:active {
 .after_item {
   content: "";
   position: absolute;
+  bottom: -257px;
+  width: 594px;
+  height: 189.84px;
+  background: rgba(219, 178, 102, 0.12);
+  transform: rotate(30deg);
+  z-index: 0;
+}
+.before_item {
+  content: "";
+  position: absolute;
   top: 66px ;
   width: 594px;
   height: 189.84px;
   background: rgba(219, 178, 102, 0.12);
   transform: rotate(30deg);
-  z-index: -11;
+  z-index: 0;
 }
 .Our_classes_comfort::after {
   content: "";
   position: absolute;
-  top: 66px ;
+  bottom: -257px;
   width: 594px;
   height: 189.84px;
   background: rgba(219, 178, 102, 0.12);
   transform: rotate(30deg);
-  z-index: -11;
+  z-index: 0;
 }
 .Our_classes_busines::after {
   content: "";
   position: absolute;
-  top: 66px ;
+  bottom: -257px;
   width: 594px;
   height: 189.84px;
   background: rgba(219, 178, 102, 0.12);
   transform: rotate(30deg);
-  z-index: -11;
+  z-index: 0;
 }
 .Our_classes_lux::after {
   content: "";
   position: absolute;
-  top: 66px ;
+  bottom: -257px;
   width: 594px;
   height: 189.84px;
   background: rgba(219, 178, 102, 0.12);
   transform: rotate(30deg);
-  z-index: -11;
+  z-index: 0;
 }
 .Our_classes_vip::after {
   content: "";
   position: absolute;
-  top: 66px ;
+  bottom: -257px;
   width: 594px;
   height: 189.84px;
   background: rgba(219, 178, 102, 0.12);
   transform: rotate(30deg);
-  z-index: -11;
-}
-.Our_classes_ecovip::after {
-  content: "";
-  position: absolute;
-  top: 66px ;
-  width: 594px;
-  height: 189.84px;
-  background: rgba(219, 178, 102, 0.12);
-  transform: rotate(30deg);
-  z-index: -11;
+  z-index: 0;
 }
 .Our_classes_miniven::after {
   content: "";
   position: absolute;
+  bottom: -257px;
+  width: 594px;
+  height: 189.84px;
+  background: rgba(219, 178, 102, 0.12);
+  transform: rotate(30deg);
+  z-index: 0;
+}
+.Our_classes_comfort::before {
+  content: "";
+  position: absolute;
   top: 66px ;
   width: 594px;
   height: 189.84px;
   background: rgba(219, 178, 102, 0.12);
   transform: rotate(30deg);
-  z-index: -11;
+  z-index: 0;
+}
+.Our_classes_busines::before {
+  content: "";
+  position: absolute;
+  top: 66px ;
+  width: 594px;
+  height: 189.84px;
+  background: rgba(219, 178, 102, 0.12);
+  transform: rotate(30deg);
+  z-index: 0;
+}
+.Our_classes_lux::before {
+  content: "";
+  position: absolute;
+  top: 66px ;
+  width: 594px;
+  height: 189.84px;
+  background: rgba(219, 178, 102, 0.12);
+  transform: rotate(30deg);
+  z-index: 0;
+}
+.Our_classes_vip::before {
+  content: "";
+  position: absolute;
+  top: 66px ;
+  width: 594px;
+  height: 189.84px;
+  background: rgba(219, 178, 102, 0.12);
+  transform: rotate(30deg);
+  z-index: 0;
+}
+.Our_classes_ecovip::before {
+  content: "";
+  position: absolute;
+  top: 66px ;
+  width: 594px;
+  height: 189.84px;
+  background: rgba(219, 178, 102, 0.12);
+  transform: rotate(30deg);
+  z-index: 0;
+}
+.Our_classes_miniven::before {
+  content: "";
+  position: absolute;
+  top: 66px ;
+  width: 594px;
+  height: 189.84px;
+  background: rgba(219, 178, 102, 0.12);
+  transform: rotate(30deg);
+  z-index: 0;
 }
 .dark {
   background-color: #4B4E5B;
