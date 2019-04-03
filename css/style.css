@@ -125,20 +125,14 @@
   text-decoration-line: none;
   font-size: 2em;
 }
-html {
-  overflow-x: hidden;
-  overflow-y: scroll;
-}
 body {
   margin: 0;
-  padding: 0;
 }
 .header {
+  width: 100%;
   min-height: 667px;
   background: #000000 url('../img/backheader.png') no-repeat left bottom;
-  width: 100%;
-  padding: 0;
-  margin: 0;
+  background-size: cover;
   color: #ffffff;
 }
 .header_taxi {
@@ -228,12 +222,14 @@ a:active {
   flex-wrap: wrap;
   justify-content: center;
   padding-bottom: 50px;
+  overflow: hidden;
 }
 .Our_classes_comfort {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   padding-bottom: 50px;
+  overflow: hidden;
 }
 .Our_classes_title {
   width: 100%;
@@ -250,30 +246,35 @@ a:active {
   flex-wrap: wrap;
   justify-content: center;
   padding-bottom: 50px;
+  overflow: hidden;
 }
 .Our_classes_lux {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   padding-bottom: 50px;
+  overflow: hidden;
 }
 .Our_classes_miniven {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   padding-bottom: 50px;
+  overflow: hidden;
 }
 .Our_classes_vip {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   padding-bottom: 50px;
+  overflow: hidden;
 }
 .Our_classes_ecovip {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   padding-bottom: 50px;
+  overflow: hidden;
 }
 .dark {
   background-color: #4B4E5B;
