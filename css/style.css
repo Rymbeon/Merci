@@ -223,3 +223,23 @@ a:active {
   font-style: normal;
   font-weight: normal;
 }
+.Our_classes_avto {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.Our_classes_comfort {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.Our_classes_title {
+  width: 100%;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  color: #4B4E5B;
+  font-size: 28px;
+  text-align: center;
+  text-transform: uppercase;
+}
