@@ -602,3 +602,12 @@ a {
 .footer > a > img {
   max-height: 50px;
 }
+.store_link {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+}
+.store_img {
+  max-width: 145px;
+}
