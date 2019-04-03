@@ -243,3 +243,31 @@ a:active {
   text-align: center;
   text-transform: uppercase;
 }
+.Our_classes_busines {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.Our_classes_lux {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.Our_classes_miniven {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.Our_classes_vip {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.Our_classes_ecovip {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.dark {
+  background-color: #191A1F;
+}
