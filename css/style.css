@@ -274,3 +274,15 @@ a:active {
 .lightvip {
   color: #ffffff !important;
 }
+.Our_classes_img {
+  min-height: 160px;
+  width: 100%;
+  background-size: 10px 100px;
+  background-color: #D59965;
+}
+.Our_classes_comfort_img {
+  min-height: 160px;
+  width: 100%;
+  background-size: 10px 100px;
+  background-color: #D59965;
+}
