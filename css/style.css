@@ -599,3 +599,6 @@ a {
   font-weight: normal;
   font-size: 18px;
 }
+.footer > a > img {
+  max-height: 50px;
+}
