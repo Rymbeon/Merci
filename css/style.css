@@ -227,13 +227,13 @@ a:active {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-bottom: 50px;
+  padding-bottom: 50px;
 }
 .Our_classes_comfort {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-bottom: 50px;
+  padding-bottom: 50px;
 }
 .Our_classes_title {
   width: 100%;
@@ -249,31 +249,31 @@ a:active {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-bottom: 50px;
+  padding-bottom: 50px;
 }
 .Our_classes_lux {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-bottom: 50px;
+  padding-bottom: 50px;
 }
 .Our_classes_miniven {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-bottom: 50px;
+  padding-bottom: 50px;
 }
 .Our_classes_vip {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-bottom: 50px;
+  padding-bottom: 50px;
 }
 .Our_classes_ecovip {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-bottom: 50px;
+  padding-bottom: 50px;
 }
 .dark {
   background-color: #4B4E5B;
