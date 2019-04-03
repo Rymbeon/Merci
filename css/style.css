@@ -48,6 +48,9 @@
 .dark_grey {
   color: #191A1F;
 }
+.very_light_grey {
+  color: #85899A;
+}
 .b_light {
   background-color: #FFFFFF;
 }
@@ -539,9 +542,60 @@ a:active {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  background-color: #191A1F;
+  background-color: #4B4E5B;
+  padding-bottom: 50px;
 }
-.Our_tarif h2,
-h3 {
+.Our_tarif > h2,
+h3,
+a {
   width: 100%;
+  text-align: center;
+}
+.Our_tarif > h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 24px;
+}
+.Our_tarif > h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+}
+.trust_block {
+  margin: 40px 40px 60px 40px;
+}
+.trust_block > h2 {
+  text-align: center;
+  font-size: 24px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+}
+.trust_block > h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+}
+.footer {
+  display: flex;
+  min-height: 432px;
+  width: 100%;
+  background-color: #191A1F;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  padding-bottom: 100px;
+}
+.footer > div {
+  padding: 30px;
+}
+.footer > div > h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
 }
