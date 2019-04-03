@@ -191,6 +191,7 @@ body {
   margin-top: 43px;
 }
 .Call_Btn {
+  width: 205px;
   display: flex;
   font-family: 'Open Sans', sans-serif;
   font-style: normal;
