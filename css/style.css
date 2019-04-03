@@ -40,7 +40,7 @@
   color: #FFFFFF;
 }
 .orange {
-  color: #D59965;
+  color: #DBB266;
 }
 .light_grey {
   color: #4B4E5B;
@@ -52,7 +52,7 @@
   background-color: #FFFFFF;
 }
 .b_orange {
-  background-color: #D59965;
+  background-color: #DBB266;
 }
 .b_light_grey {
   background-color: #4B4E5B;
@@ -68,6 +68,7 @@
   display: flex;
   justify-content: center;
   position: fixed;
+  z-index: 999999;
 }
 .navbar {
   display: flex;
@@ -193,7 +194,7 @@ body {
   font-size: 18px;
   justify-content: center;
   padding: 27px 34px 27px 34px;
-  background-color: #D59965;
+  background-color: #DBB266;
   text-transform: uppercase;
   color: #FFFFFF;
 }
@@ -211,7 +212,7 @@ a:active {
 }
 .Active_link {
   margin-top: 30px;
-  color: #D59965;
+  color: #DBB266;
   text-transform: uppercase;
   font-family: 'Helvetica_Light';
   font-style: normal;
@@ -223,6 +224,7 @@ a:active {
   justify-content: center;
   padding-bottom: 50px;
   overflow: hidden;
+  position: relative;
 }
 .Our_classes_comfort {
   display: flex;
@@ -230,6 +232,7 @@ a:active {
   justify-content: center;
   padding-bottom: 50px;
   overflow: hidden;
+  position: relative;
 }
 .Our_classes_title {
   width: 100%;
@@ -247,6 +250,7 @@ a:active {
   justify-content: center;
   padding-bottom: 50px;
   overflow: hidden;
+  position: relative;
 }
 .Our_classes_lux {
   display: flex;
@@ -254,6 +258,7 @@ a:active {
   justify-content: center;
   padding-bottom: 50px;
   overflow: hidden;
+  position: relative;
 }
 .Our_classes_miniven {
   display: flex;
@@ -261,6 +266,7 @@ a:active {
   justify-content: center;
   padding-bottom: 50px;
   overflow: hidden;
+  position: relative;
 }
 .Our_classes_vip {
   display: flex;
@@ -268,6 +274,7 @@ a:active {
   justify-content: center;
   padding-bottom: 50px;
   overflow: hidden;
+  position: relative;
 }
 .Our_classes_ecovip {
   display: flex;
@@ -275,6 +282,137 @@ a:active {
   justify-content: center;
   padding-bottom: 50px;
   overflow: hidden;
+  position: relative;
+}
+.after_item {
+  content: "";
+  position: absolute;
+  bottom: -257px;
+  width: 594px;
+  height: 189.84px;
+  background: rgba(219, 178, 102, 0.12);
+  transform: rotate(30deg);
+  z-index: 0;
+}
+.before_item {
+  content: "";
+  position: absolute;
+  top: 66px ;
+  width: 594px;
+  height: 189.84px;
+  background: rgba(219, 178, 102, 0.12);
+  transform: rotate(30deg);
+  z-index: 0;
+}
+.Our_classes_comfort::after {
+  content: "";
+  position: absolute;
+  bottom: -257px;
+  width: 594px;
+  height: 189.84px;
+  background: rgba(219, 178, 102, 0.12);
+  transform: rotate(30deg);
+  z-index: 0;
+}
+.Our_classes_busines::after {
+  content: "";
+  position: absolute;
+  bottom: -257px;
+  width: 594px;
+  height: 189.84px;
+  background: rgba(219, 178, 102, 0.12);
+  transform: rotate(30deg);
+  z-index: 0;
+}
+.Our_classes_lux::after {
+  content: "";
+  position: absolute;
+  bottom: -257px;
+  width: 594px;
+  height: 189.84px;
+  background: rgba(219, 178, 102, 0.12);
+  transform: rotate(30deg);
+  z-index: 0;
+}
+.Our_classes_vip::after {
+  content: "";
+  position: absolute;
+  bottom: -257px;
+  width: 594px;
+  height: 189.84px;
+  background: rgba(219, 178, 102, 0.12);
+  transform: rotate(30deg);
+  z-index: 0;
+}
+.Our_classes_miniven::after {
+  content: "";
+  position: absolute;
+  bottom: -257px;
+  width: 594px;
+  height: 189.84px;
+  background: rgba(219, 178, 102, 0.12);
+  transform: rotate(30deg);
+  z-index: 0;
+}
+.Our_classes_comfort::before {
+  content: "";
+  position: absolute;
+  top: 66px ;
+  width: 594px;
+  height: 189.84px;
+  background: rgba(219, 178, 102, 0.12);
+  transform: rotate(30deg);
+  z-index: 0;
+}
+.Our_classes_busines::before {
+  content: "";
+  position: absolute;
+  top: 66px ;
+  width: 594px;
+  height: 189.84px;
+  background: rgba(219, 178, 102, 0.12);
+  transform: rotate(30deg);
+  z-index: 0;
+}
+.Our_classes_lux::before {
+  content: "";
+  position: absolute;
+  top: 66px ;
+  width: 594px;
+  height: 189.84px;
+  background: rgba(219, 178, 102, 0.12);
+  transform: rotate(30deg);
+  z-index: 0;
+}
+.Our_classes_vip::before {
+  content: "";
+  position: absolute;
+  top: 66px ;
+  width: 594px;
+  height: 189.84px;
+  background: rgba(219, 178, 102, 0.12);
+  transform: rotate(30deg);
+  z-index: 0;
+}
+.Our_classes_ecovip::before {
+  content: "";
+  position: absolute;
+  top: 66px ;
+  width: 594px;
+  height: 189.84px;
+  background: rgba(219, 178, 102, 0.12);
+  transform: rotate(30deg);
+  z-index: 0;
+}
+.Our_classes_miniven::before {
+  content: "";
+  position: absolute;
+  top: 66px ;
+  width: 594px;
+  height: 189.84px;
+  background: rgba(219, 178, 102, 0.12);
+  transform: rotate(30deg);
+  z-index: 0;
 }
 .dark {
   background-color: #4B4E5B;
@@ -284,25 +422,29 @@ a:active {
 }
 .Our_classes_img {
   display: flex;
+  position: relative;
   min-height: 140px;
   width: 100%;
   border-color: #ffffff;
-  border-top: 20px solid #ffffff;
-  border-right: 40px solid #ffffff;
+  padding-top: 20px;
+  padding-right: 40px;
   margin-right: 25%;
-  background-color: #D59965;
+  z-index: 50;
+  background-color: #DBB266;
 }
 .Our_classes_comfort_img {
   display: flex;
+  position: relative;
   min-height: 140px;
   width: 100%;
   border-color: #ffffff;
-  border-top: 20px solid #ffffff;
-  border-right: 40px solid #ffffff;
+  padding-top: 20px;
+  padding-right: 40px;
   margin-right: 25%;
-  background-color: #D59965;
+  z-index: 50;
+  background-color: #DBB266;
 }
-.Our_classes_comfort_img img {
+.Our_classes_comfort_img > img {
   margin: -15% 0% 0% 25%;
 }
 .Our_classes_text {
@@ -318,69 +460,79 @@ a:active {
 }
 .Our_classes_busines_img {
   display: flex;
+  position: relative;
   min-height: 140px;
   width: 100%;
   border-color: #ffffff;
-  border-top: 20px solid #ffffff;
-  border-right: 40px solid #ffffff;
+  padding-top: 20px;
+  padding-right: 40px;
   margin-right: 25%;
-  background-color: #D59965;
+  z-index: 50;
+  background-color: #DBB266;
 }
-.Our_classes_busines_img img {
+.Our_classes_busines_img > img {
   margin: -15% 0% 0% 25%;
 }
 .Our_classes_lux_img {
   display: flex;
+  position: relative;
   min-height: 140px;
   width: 100%;
   border-color: #ffffff;
-  border-top: 20px solid #ffffff;
-  border-right: 40px solid #ffffff;
+  padding-top: 20px;
+  padding-right: 40px;
   margin-right: 25%;
-  background-color: #D59965;
+  z-index: 50;
+  background-color: #DBB266;
 }
-.Our_classes_lux_img img {
+.Our_classes_lux_img > img {
   margin: -15% 0% 0% 25%;
 }
 .Our_classes_miniven_img {
   display: flex;
+  position: relative;
   min-height: 140px;
   width: 100%;
   border-color: #ffffff;
-  border-top: 20px solid #ffffff;
-  border-right: 40px solid #ffffff;
+  padding-top: 20px;
+  padding-right: 40px;
   margin-right: 25%;
-  background-color: #D59965;
+  z-index: 50;
+  background-color: #DBB266;
 }
-.Our_classes_miniven_img img {
+.Our_classes_miniven_img > img {
   margin: -15% 0% 0% 25%;
 }
 .Our_classes_vip_img {
   display: flex;
+  position: relative;
   min-height: 140px;
   width: 100%;
   border-color: #ffffff;
-  border-top: 20px solid #ffffff;
-  border-right: 40px solid #ffffff;
+  padding-top: 20px;
+  padding-right: 40px;
   margin-right: 25%;
-  background-color: #D59965;
+  z-index: 50;
+  background-color: #DBB266;
   border: none;
 }
-.Our_classes_vip_img img {
+.Our_classes_vip_img > img {
   margin: -15% 0% 0% 25%;
 }
 .Our_classes_ecovip_img {
   display: flex;
+  position: relative;
   min-height: 140px;
   width: 100%;
   border-color: #ffffff;
-  border-top: 20px solid #ffffff;
-  border-right: 40px solid #ffffff;
+  padding-top: 20px;
+  padding-right: 40px;
   margin-right: 25%;
-  background-color: #D59965;
+  z-index: 50;
+  background-color: #DBB266;
   border: none;
 }
-.Our_classes_ecovip_img img {
+.Our_classes_ecovip_img > img {
   margin: -15% 0% 0% 25%;
 }
 .Our_tarif {
