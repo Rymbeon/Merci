@@ -848,6 +848,9 @@ a {
   font-weight: normal;
   font-size: 14px;
 }
+.store_img {
+  width: 50%;
+}
 .store_img > img {
   max-width: 145px;
 }
