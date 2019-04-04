@@ -765,7 +765,7 @@ a:active {
 .servis_nonalcho > div > div:last-child {
   margin-top: 95px;
 }
-.servis_nonalchor::before {
+.servis_nonalcho::before {
   content: "05";
   position: absolute;
   top: -42px;
