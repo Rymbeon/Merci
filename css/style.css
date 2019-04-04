@@ -73,9 +73,14 @@
 }
 .navbar > a {
   color: #4B4E5B;
+  width: auto;
+  height: auto;
 }
-.navbar > a > img {
-  width: 50%;
+.navbar_img {
+  width: 80px;
+}
+.navbar_img > img {
+  width: 80px;
 }
 .nav_modal {
   position: absolute;
