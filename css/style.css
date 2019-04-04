@@ -339,7 +339,7 @@ a:active {
   transform: rotate(30deg);
   z-index: 0;
 }
-.Our_classes_miniven::after {
+.Our_classes_ecovip::after {
   content: "";
   position: absolute;
   bottom: -257px;
