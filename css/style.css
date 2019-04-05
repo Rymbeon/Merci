@@ -84,7 +84,7 @@
   width: 80px;
 }
 .nav_modal {
-  position: absolute;
+  position: fixed;
   top: -500px;
   right: 0;
   bottom: 0;
