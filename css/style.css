@@ -557,6 +557,9 @@ a:active {
   margin-bottom: 0;
   margin-bottom: 15%;
 }
+.all_our_servises > img {
+  margin-left: 3%;
+}
 .Our_servises_content {
   display: flex;
   flex-direction: column;
