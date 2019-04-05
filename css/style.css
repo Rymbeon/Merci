@@ -61,6 +61,7 @@
   justify-content: center;
   position: fixed;
   z-index: 999;
+  transition: 400ms;
 }
 .navbar {
   display: flex;
