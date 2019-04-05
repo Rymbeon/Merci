@@ -555,15 +555,7 @@ a:active {
   color: #4B4E5B;
   font-size: 28px;
   margin-bottom: 0;
-}
-.Our_servises_title > h4 {
-  font-family: 'Open Sans', sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  color: #191A1F;
-  font-size: 14px;
-  text-align: center;
-  margin-bottom: 90px;
+  margin-bottom: 15%;
 }
 .Our_servises_content {
   display: flex;
