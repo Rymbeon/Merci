@@ -820,12 +820,21 @@ a {
   font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: bold;
+  margin-bottom: 0px;
 }
 .trust_block > h3 {
   font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
+}
+.trust_block > h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 0px;
 }
 .footer {
   display: flex;
