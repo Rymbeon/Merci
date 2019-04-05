@@ -8,12 +8,3 @@ var currentScrollPos = window.pageYOffset;
   }
   prevScrollpos = currentScrollPos;
 }
-
-document.onload = function() {
-  var userWidht = window.innerWidth;
-  if (userWidht < 500) {
-    document.getElementById('mobile').style.display = "block";
-  } else {
-    document.getElementById('no-mobile').style.display = "block";
-  }
-}
