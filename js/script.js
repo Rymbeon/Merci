@@ -25,3 +25,12 @@ $(document).ready(function(){
     $("#nav-list").css('top', '0');
 	});
 });
+jQuery(function($){
+	$(document).mouseup(function (e){ // событие клика по веб-документу
+		var div = $("#nav-list"); // тут указываем ID элемента
+		if (!div.is(e.target) // если клик был не по нашему блоку
+		    && div.has(e.target).length === 0) { // и не по его дочерним элементам
+          $("#nav-list").css('top', '-500px');
+		}
+	});
+});
